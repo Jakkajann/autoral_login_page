@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #12013a;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.card {
+    position: absolute;
+    height: 400px;
+    width: 350px;
+    background-color: #027ba3;
+    top: 50%;
+    left: 50%;
+    border-radius: 30px;
+    box-shadow: 4px 8px 10px;
+    
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    text-align: center;
+    color: aliceblue;
+}
