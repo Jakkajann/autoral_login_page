@@ -9,14 +9,29 @@
     <div class="container">
         <header>
             <div class="card">
-                <form method="/" action="post">
-                    
-                </form>
+                <div class="form-container">
+                    <form method="/" action="post" class="form">
+                        <img class="form-picture" src="https://picsum.photos/200" alt="form picture">
+
+                        <label for="username">Username:</label>
+                        <input  id="username" type="text" name="username" placeholder="username">
+
+                        <label for="password">Password:</label>
+                        <input  id="password" type="password" name="password" placeholder="password">
+
+                        <div class="submit-form-group">
+                            <button  class="submit-btn submit-btn-log" type="submit">Login</button>
+                            <button  class="submit-btn submit-btn-reg" type="submit">Register</button>
+                        </div>
+                        <a style="margin-top: 1rem;" href="#">Esqueceu senha?</a>
+                    </form>
+                  
+                </div>
             </div>
         </header>
     
         <footer>
-            <p> Copyright &copy; by Fernando Bismaia Mocrosky</p>
+            <p> Copyright &copy; 2023 by Fernando Bismaia Mocrosky</p>
         </footer>
     </div>
    
